@@ -1,5 +1,19 @@
 #!/bin/bash
 
+#Here some information :
+
+#* How to setup
+#chmod +x start-app-after-reboot.sh
+#sudo ./start-after-reboot.sh install
+
+#=> Append your command to run the program to sars-script.sh
+
+#* How to run
+#sudo ./start-after-reboot.sh
+
+#* How to remove (when not used script anymore)
+#sudo ./start-after-reboot.sh uninstall
+
 LOG_FILE=`pwd`/log.txt
 SERVICE_NAME=start-after-reboot.service
 SERVICE_FILE=/etc/systemd/system/$SERVICE_NAME
