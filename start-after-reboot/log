@@ -1,0 +1,12 @@
+$ sudo ./start-after-reboot.sh install 
+Created -> /home/tt/start-app-after-reboot/sars-script.sh
+Created -> /etc/systemd/system/start-after-reboot.service
+Created symlink /etc/systemd/system/default.target.wants/start-after-reboot.service → /etc/systemd/system/start-after-reboot.service.
+
+$ sudo ./start-after-reboot.sh uninstall
+Removed /etc/systemd/system/default.target.wants/start-after-reboot.service.
+removed '/home/tt/start-app-after-reboot/sars-script.sh'
+removed '/etc/systemd/system/start-after-reboot.service'
+removed '/home/tt/start-app-after-reboot/log.txt'
+
+$ sudo ./start-after-reboot.sh 
