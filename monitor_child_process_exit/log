@@ -1,0 +1,47 @@
+~/script-utils/monitor_child_process_exit$ g++ monitor_child_process_exit.cpp -o monitor_child_process_exit
+~/script-utils/monitor_child_process_exit$ ./monitor_child_process_exit 
+Child process started 
+  1. access out of array
+  2. divide by zero
+  3. killed by other process
+  4. normal exit (default case)
+Select case to run : 1
+Access out of array
+Child process status changed 139
+killed by signal 11 - Segmentation fault
+
+~/script-utils/monitor_child_process_exit$ ./monitor_child_process_exit 
+Child process started 
+  1. access out of array
+  2. divide by zero
+  3. killed by other process
+  4. normal exit (default case)
+Select case to run : 2
+Divide by zero
+Child process status changed 136
+killed by signal 8 - Floating point exception
+
+~/script-utils/monitor_child_process_exit$ ./monitor_child_process_exit 
+Child process started 
+  1. access out of array
+  2. divide by zero
+  3. killed by other process
+  4. normal exit (default case)
+Select case to run : 3
+Process 2565 wait to be killed....
+Child process status changed 4991
+stopped by signal 19 - Stopped (signal)
+Child process status changed 9
+killed by signal 9 - Killed
+
+~/script-utils/monitor_child_process_exit$ ./monitor_child_process_exit 
+Child process started 
+  1. access out of array
+  2. divide by zero
+  3. killed by other process
+  4. normal exit (default case)
+Select case to run : 4
+Normal test
+Child process status changed 0
+exited, status=0
+
