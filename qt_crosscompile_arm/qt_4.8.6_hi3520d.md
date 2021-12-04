@@ -21,9 +21,9 @@ source /etc/profile
 
 
 ## Compile
-
-> https://blog.karthisoftek.com/a?ID=01700-11afe579-5fbb-4b0a-8b6d-335bcdcb8e04
-> https://blog.birost.com/a?ID=00400-6686cffe-5b8c-4536-9350-3cb1164c746a
+> [Reference Link](https://blog.karthisoftek.com/a?ID=01700-11afe579-5fbb-4b0a-8b6d-335bcdcb8e04)
+> 
+> [Reference Link](https://blog.birost.com/a?ID=00400-6686cffe-5b8c-4536-9350-3cb1164c746a)
 
 ```
 wget https://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz
